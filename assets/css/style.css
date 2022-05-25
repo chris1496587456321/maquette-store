@@ -4,6 +4,7 @@
 }
 
 *{
+    font-family: "montserrat";
     margin: 0;
     padding: 0;
 }
@@ -13,11 +14,20 @@
     flex-direction: column;
     
 }
+
+
 #burger{
  display: flex;
  justify-content: space-between;
  color: white;
     background-color: black;
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 0.5rem;
+    align-items: center;
+}
+#burger i{
+    font-size: 3rem;
 }
 
 
@@ -25,9 +35,17 @@
     display: flex;
     justify-content: space-between;
     color: gray;
+    font-size: 1.5rem;
+    font-weight: 100;
+    align-items: center;
+    padding: 1rem 0.5rem;
+    
 }
 /* Main */
 
+main{
+    margin: 00.5rem;
+}
 
 #carousel .card1{
     background-image: url(../img/jeans.jpg);
@@ -38,19 +56,152 @@
     width: 100%;
     
 }
+#carousel h1{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    position: relative;
+    top: 2rem;
+    left: 1rem;
+}
+#carousel h2{
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    position: relative;
+    top: 4rem;
+    left: 1rem;
+}
+#carousel button{
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    position: relative;
+    top: 5rem;
+    left: 1rem;
+}
+#carousel p{
+    color: grey;
+    padding-top: 1rem;
+}
 #articles{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-bottom: 2rem;
 }
 .card2{
     width: 45%;
     
-
+    padding-top: 1rem;
     
     
 }
 .card2 img{
     width: 100%;
 }
+.new{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: .5rem;
+    font-size: 1rem;
+    font-weight: 200;
+}
 
+/* Subscribe */
+
+#pub input{
+    width: 100%;
+    
+}
+
+.subscribe{
+    background-color: black;
+    color: white;
+    padding: 3rem 1rem;
+}
+
+#pub button{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+}
+.subscribe h3{
+    padding: 1rem 0;
+}
+.subscribe input{
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* Contact */
+#contact{
+    background-color: lightgrey;
+    padding: 1rem;
+}
+.contact{
+    padding-top: 3rem;
+    
+}
+.contact input{
+    width: 100%;
+}
+
+#contact h3, #contact h2{
+    text-align: center;
+    color: brown;
+    margin-bottom: 1rem;
+}
+.send input{
+    background-color: black;
+    color: white;
+}
+
+.about h2, .about p{
+    margin-top: .8rem;
+}
+
+#contact .about, #contact .store{
+    text-align: center;
+}
+#super{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+#super h2{
+    margin-top: 1.5rem;
+}
+.information{
+    margin: 1rem;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+    
+    header nav{
+        display: flex;
+        justify-content: center;
+
+    }
+    #burger{
+        color: darkgray;
+        background-color: white;
+    }
+
+    #burger i{
+        display: none;
+
+    }
+}

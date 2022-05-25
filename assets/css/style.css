@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "montserrat";
+    src: url(../font/Montserrat-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+#top{
+    display: flex;
+    flex-direction: column;
+    
+}
+#burger{
+ display: flex;
+ justify-content: space-between;
+ color: white;
+    background-color: black;
+}
+
+
+#jeans{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+}
+/* Main */
+
+
+#carousel .card1{
+    background-image: url(../img/jeans.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100%;
+    
+}
+#articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card2{
+    width: 45%;
+    
+
+    
+    
+}
+.card2 img{
+    width: 100%;
+}
+

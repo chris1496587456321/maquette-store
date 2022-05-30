@@ -41,6 +41,10 @@
     padding: 1rem 0.5rem;
     
 }
+#matrix{
+    display: none;
+}
+
 /* Main */
 
 main{
@@ -190,18 +194,46 @@ footer{
 
 @media screen and (min-width: 576px) {
     
-    header nav{
+    header .logo1{
         display: flex;
-        justify-content: center;
-
+        justify-content:flex-start;
+        flex-direction: row;
     }
     #burger{
+        width: 20%;
         color: darkgray;
-        background-color: white;
+        background-color: white;border:1px solid ;
     }
 
     #burger i{
         display: none;
 
+    }
+    
+    #jeans{
+        width:80%;
+        border: 1px solid;
+    }
+    /* main */
+ /*    main section{
+        display: flex;
+        align-items: row;
+    } */
+    #superMatrix{
+        display: flex;
+        justify-content: start;
+        text-align: center;
+        display: block;
+    }
+    #matrix{
+        width: 20%;
+    }
+    #matrix ul{
+        list-style-type: none;
+        border: 1px solid red;
+    }
+    #carousel{
+        width: 75%;
+        border: 1px solid red;
     }
 }
